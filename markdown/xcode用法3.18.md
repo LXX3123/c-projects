@@ -2,7 +2,7 @@
 
 ## **xcode执行界面截图：**
 
-![截屏2020-03-18下午8.56.42](xcode用法3.18.assets/截屏2020-03-18下午8.56.42.png)
+![A571ED0E-011C-476B-80EC-1E3008E902A5](xcode用法3.18.assets/A571ED0E-011C-476B-80EC-1E3008E902A5.png)
 
 ## Xcode Project**
 
