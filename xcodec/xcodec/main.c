@@ -9,18 +9,25 @@
  */
 
 #include <stdio.h>
-
-int main(void)
+#include <math.h>
+int main()
 {
-    int a ,b, c ;
-    printf("请输入三个整数\n");
-          
-    printf("整数1：");
-    scanf ("%d",&a);
-    printf("整数2：");
-    scanf ("%d",&b);
-    printf("整数3：");
-    scanf ("%d",&c);
-    printf("它们的和是%d\n",a + b + c);
+    int flag, domi;
+    double sum, item;
+    item = 1;
+    sum = 0;
+    flag = 1;
+    domi = 1;
+
+    while ( fabs(item) > 0.0001 )
+    {
+        item = flag * 1.0/domi;
+        sum = sum + item;
+        domi = domi + 2;
+        flag = -flag;
+    }
+
+    printf("派的值是%f\n", sum*4);
     return 0;
 }
+
