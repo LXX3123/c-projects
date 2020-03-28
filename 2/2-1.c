@@ -3,8 +3,7 @@
 */
 #include <stdio.h>
 
-int ma
-in(void) 
+int main(void)
 {
 
     int a;
@@ -19,19 +18,11 @@ in(void)
     //计算两个数的和
     int c;
     c = a + b;
-    printf("%d + %d = %d\n",a,b,c);
+    printf("%d + %d = %d\n", a, b, c);
 
     //计算两个数的余数
     c = a % b;
-    printf("%d %% %d = %d\n",a,b,c);
+    printf("%d %% %d = %d\n", a, b, c);
 
-
-
-
-
-    return(0);
-
-
-
-
+    return (0);
 }
